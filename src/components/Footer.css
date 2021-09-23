@@ -1,0 +1,38 @@
+footer{
+    background: lightseagreen;
+    color: rgb(250,250,250);
+}
+.part1, .part2{
+margin-left: 30px;
+}
+h1{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.part2{
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+@media (min-width:600px){
+    .wrapper-footer{
+        margin: auto;
+        max-width: 1400px;
+    }
+    .part2{
+        margin-top: 0px;
+    }
+    h1{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footer-main{
+        display: flex;
+        align-items:baseline;
+        justify-content: space-evenly;
+    }
+    .copyright{
+        margin: auto;
+        border: 1px solid black;
+    }
+
+}

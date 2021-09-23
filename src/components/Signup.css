@@ -1,0 +1,47 @@
+.signup input{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+}
+.signup{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.signup input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    padding-left: 10px;
+    max-width: 300px;
+}
+.signup input:focus{
+    border:3px solid lightseagreen;
+}
+.signup-button{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    width: fit-content;
+}
+@media(min-width:600px){
+    .signup-wrapper{
+        width: fit-content;
+        margin: auto;
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom:30px;
+        padding-bottom: 30px;
+        border: 7px solid lightseagreen;
+        border-radius: 5px;
+        padding-left: 50px;
+        padding-right:50px;
+
+    }
+    .signup{
+        background-image: url("./../pictures/thumb-1920-82317.jpg");
+    }
+}

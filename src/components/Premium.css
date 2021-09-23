@@ -1,0 +1,35 @@
+.premium-main{
+    height: 600px;
+    width: 1400px;
+    margin: auto;
+}
+.cards{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.card{
+    border: 1px solid black;
+    height: 300px;
+    z-index: 0;
+    position: relative;
+    margin-inline: 30px;
+}
+.center{
+    transform: scale(1.1);
+    z-index: -1;
+}
+.premium-button{
+    margin: auto;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.premium-button:hover{
+    cursor: pointer;
+
+}
